@@ -1,0 +1,11 @@
+<h1> Add a Book </h1>
+{{#if err}}
+    Uh oh! Couldn't add your book. May-bee try again?
+{{/if}}
+
+<form action="/books-new" method="POST">
+    Title <input type="text" name="title"> <br>
+    Author <input type="text" name="author"> <br>
+    ISBN <input type="text" name="isbn"> <br>
+    <input type="submit" value="Add this book!">
+</form>

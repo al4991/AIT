@@ -1,0 +1,23 @@
+{{#with books}}
+    <h1> Reviews for {{{title}}} by {{{author}}}</h1>
+        Add a Review
+    <form action="/books/{{{slug}}}/comments" method="POST">
+        <input type="text"  value="Rating 0-5"name="rating">
+        <input type="text" value="Your name" name="name">
+        <input type="text" value="Da Review" name="text">
+        <input type="submit" value="Review!">
+    </form>
+    {{#each reviews}}
+        <div>
+            Rating:
+            <script>
+
+        </script><br>
+            Name: {{{name}}}<br>
+            Text: {{{text}}}<br>
+        </div> <br>
+    {{/each}}
+{{/with}}
+{{#if noReview}}
+    No reviews yet :(
+{{/if}}

@@ -1,0 +1,25 @@
+body {
+    background-color: mediumpurple;
+    text-align: center;
+}
+
+h1 {
+    background-color: rebeccapurple;
+    font-family: Tangerine, serif;
+    font-size: 120px;
+    color: goldenrod;
+}
+
+div {
+    text-align: center;
+    background: mediumpurple;
+}
+
+a {
+    color: hotpink;
+    font-size: 250px;
+    background-color: darkviolet;
+    padding: .25em .5em;
+    text-transform: uppercase;
+    font-family: Tangerine, serif;
+}

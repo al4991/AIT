@@ -1,0 +1,100 @@
+* {
+    text-align: center;
+}
+
+input[type="button"] {
+    border: none;
+    background-color: #000;
+    color: white;
+}
+
+div > input[type="button"] {
+    margin-left: 10%;
+}
+
+body {
+    background-color: lightskyblue;
+}
+.hidden {
+    font-size: 0;
+}
+
+.playlistDiv {
+    border: 2px solid black;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.songDiv {
+    border: 2px solid black;
+    width: 90%;
+    height: 150%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal.open {
+    display: block;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 25% auto; /* 15% from the top and centered */
+    padding: 20px;
+    vertical-align: center;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.modal input[type="button"] {
+    margin: 0 auto;
+    width: 30%;
+    display: inline-block;
+}
+
+.login-form {
+    background: white;
+    margin: 10% auto 0;
+    width: 50%;
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.main-page-block {
+    background: white;
+    margin: 5% auto 0;
+    width: 50%;
+    padding: 5%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+}
+
+.login-form h3 {
+    text-align: center;
+    color: #333;
+}
+.login-container form {
+    padding: 10%;
+}
+.btnSubmit
+{
+    font-weight: 600;
+    color: #fff;
+    background-color: #0062cc;
+    width: 50%;
+    border-radius: 1rem;
+    padding: 1.5%;
+    border: none;
+    cursor: pointer;
+}

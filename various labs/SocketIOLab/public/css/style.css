@@ -1,0 +1,26 @@
+
+.racer {
+  position: absolute;
+  left: 0px;
+  font-size: 100px;
+}
+
+.player1 {
+  top: 50px;
+}
+
+.player2 {
+  top: 300px;
+}
+
+.play-area {
+  box-sizing: border-box;
+  position: relative;
+  width: 600px;
+  height: 500px;
+  border-right: 3px dashed black;
+}
+
+button {
+  font-size: 3em;
+}

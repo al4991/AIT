@@ -1,0 +1,35 @@
+* {
+    text-align: center;
+}
+.game, .result, .reset, .error-message, .not-visible {
+    display: none;
+}
+table {
+    table-layout: fixed;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.visible {
+    display: block;
+}
+.text-invisible {
+    font-size: 0;
+}
+.game-block {
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    height: 60px;
+    border: 2px solid black;
+    padding-top: 40px
+}
+.clicked {}
+.correct {}

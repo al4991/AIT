@@ -1,0 +1,75 @@
+{{#if ubuntu}}
+    <h1> Ubuntu </h1>
+    <body style="background-color:darkseagreen">
+{{/if}}
+{{#if debian}}
+    <h1> Debian </h1>
+    <body style="background-color:royalblue">
+{{/if}}
+{{#if redhat}}
+    <h1> Redhat </h1>
+    <body style="background-color:mediumpurple">
+{{/if}}
+
+<div id="big_wrapper">
+    <div id="'wrapper">
+        <div id="floating_div">
+            <form action="http://localhost:3000/vfs" method="GET">
+                <label>
+                    Command<br>
+                    <select name="command" >
+                        <option value="ls"> ls </option>
+                        <option value="tree"> tree </option>
+                        <option value="cat"> cat  </option>
+                    </select> <br>
+                </label>
+                <label>
+                    Option<br>
+                    <input type="text" name="option"><br>
+                </label>
+                <label>
+                    Path<br>
+                    <input type="text" name="path"><br>
+                </label>
+                <input type="submit" value="submit"><br>
+            </form>
+        </div>
+        <div id="floating_div2">
+            <form action="http://localhost:3000/vfs" method="POST">
+                <label>
+                    Command<br>
+                    <select name="command" >
+                        <option value="mkdir"> mkdir </option>
+                        <option value="write"> write </option>
+                    </select> <br>
+                </label>
+                <label>
+                    Path<br>
+                    <input type="text" name="path" value=""><br>
+                </label>
+                <label>
+                    Content<br>
+                    <input type="text" name="content"><br>
+                </label>
+                <input type="submit" value="submit"><br>
+            </form>
+        </div>
+    </div>
+</div>
+<fieldset>
+    <legend style="color:lawngreen"> Terminal</legend>
+    <ul>
+        {{#each terminalOutput}}
+            <li> {{this}} </li>
+        {{/each}}
+    </ul>
+</fieldset>
+
+
+{{#each lst}}
+
+    {{#each object}}
+
+    {{/each}}
+{{/each}}
+</body>

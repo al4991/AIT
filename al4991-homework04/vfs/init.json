@@ -1,0 +1,92 @@
+{
+    "fs": {
+        "/":{
+            "permission": "drwxr--r--",
+            "hard-links": 1,
+            "owner-name": "root",
+            "owner-group": "root",
+            "last-modified": "Feb 25 11:20",
+            "size": 6,
+            "files": {
+                "bin": {
+                    "permission": "drwxr--r--",
+                    "hard-links": 1,
+                    "owner-name": "root",
+                    "owner-group": "root",
+                    "last-modified": "Feb 27 08:17",
+                    "size": 6,
+                    "files": {
+                    }
+                },
+                "home": {
+                    "permission": "drwxr--r--",
+                    "hard-links": 1,
+                    "owner-name": "root",
+                    "owner-group": "root",
+                    "last-modified": "Jan 20 12:45",
+                    "size": 6,
+                    "files": {
+                        "es6.jpg": {
+                            "permission": "-rwxr--r--",
+                            "hard-links": 1,
+                            "owner-name": "root",
+                            "owner-group": "root",
+                            "last-modified": "Jan 25 03:00",
+                            "size": 6,
+                            "content": "static/jpg/es6.jpeg"
+                        },
+                        "yahyeet.txt": {
+                            "permission": "-rwxr--r--",
+                            "hard-links": 1,
+                            "owner-name": "root",
+                            "owner-group": "root",
+                            "last-modified": "Jan 25 03:00",
+                            "size": 6,
+                            "content": "my name yeff"
+                        }
+                    }
+                },
+                "lib": {
+                    "permission": "drwxr--r--",
+                    "hard-links": 1,
+                    "owner-name": "root",
+                    "owner-group": "root",
+                    "last-modified": "Jan 05 08:02",
+                    "size": 6,
+                    "files": {
+                        "modules": {
+                            "permission": "drwxr--r--",
+                            "hard-links": 1,
+                            "owner-name": "root",
+                            "owner-group": "root",
+                            "last-modified": "Jan 05 08:03",
+                            "size": 6,
+                            "files": {
+                                "aba.txt": {
+                                    "permission": "-rwxr--r--",
+                                    "hard-links": 1,
+                                    "owner-name": "root",
+                                    "owner-group": "root",
+                                    "last-modified": "Jan 10 05:25",
+                                    "user": "staff",
+                                    "size": 6,
+                                    "content": "hello world."
+                                }
+                            }
+                        }
+                    }
+                },
+                "dev": {
+                    "permission": "drwxr--r--",
+                    "hard-links": 1,
+                    "owner-name": "root",
+                    "owner-group": "root",
+                    "last-modified": "Mar 10 07:30",
+                    "size": 6,
+                    "files": {
+                    }
+                }
+            }
+        }
+    }
+}

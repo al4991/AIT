@@ -1,0 +1,29 @@
+<h1> Bonk </h1>
+
+<form action="/books" method="GET">
+    Filter Books By: <select name="filterBy">
+        <option value="title"> Title</option>
+        <option value="author">Author</option>
+    </select>
+    <input type="text" name="filterBody">
+    <input type="submit" value="Filter">
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th> Title </th>
+            <th> Author </th>
+            <th> ISBN </th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each books}}
+            <tr>
+                <td> <a href="/books/{{slug}}"> {{title}} </a> </td>
+                <td> {{author}}</td>
+                <td> {{isbn}}</td>
+            </tr>
+        {{/each}}
+    </tbody>
+</table>
