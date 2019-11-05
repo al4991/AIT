@@ -20,7 +20,7 @@
     "express": "^4.16.4",
     "hbs": "^4.0.3",
     "mongo-sanitize": "^1.0.1",
-    "mongoose": "^5.4.21",
+    "mongoose": "^5.7.5",
     "mongoose-url-slugs": "^1.0.2"
   }
 }
